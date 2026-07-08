@@ -16,7 +16,13 @@ canvas{
     width:100vw;
     height:100vh;
 video{
-    display:none;
+    display:none !important;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 canvas{
